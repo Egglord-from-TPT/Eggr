@@ -13,7 +13,7 @@ def eggr(l,m):
 			if a+m>sorted(l)[len(l)-1]:
 				break
 			if c==a:
-				raise SyntaxError("No next index;!")
+				raise SyntaxError("No next index!")
 		if b==sorted(b):
 			break
 	return b
