@@ -1,16 +1,12 @@
-# variables_plus
+# eggr
 
-A simple Python library to create, clear, read, write and delete global variables.
+A Python package that extracts the longest reachable increasing sequence from a list of numbers where each step cannot exceed a specified distance.
 
-This is my first python library :D
+This is my fourth python library :D
 
 Commands:
-vp.vp("create(variable=something)")   # Remove =something to create a blank variable.
-vp.vp("clear(variable)")   # Leave clear() empty to clear all variables.
-vp.vp("delete(variable)")   # Variable needs to exist.
-vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)")) to print the variables contents.
-vp.vp(“write(variable=something)”)   # Variable needs to exist.
+eggr.eggr(list,intiger) # Intiger determines the max jump length, and it favours bigger jumps, but if there aren't any bigger ones, it will do the biggest jump that isnt bigger than the maximum jump length.
 
 !NB!
-Use: pip install variablesplus
-But, to import it: import vp
+Use: pip install eggr
+But, to import it to python: import eggr
