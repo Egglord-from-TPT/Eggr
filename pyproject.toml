@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eggr"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Python package that extracts the longest reachable increasing sequence from a list of numbers where each step cannot exceed a specified distance."
 readme = "README.md"
 requires-python = ">=3.8"
