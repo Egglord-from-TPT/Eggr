@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="variables_plus",
-    version="2.3.0",
+    name="eggr",
+    version="1.0.0",
     packages=find_packages(),
-    description="A simple library to create, clear, and delete global variables",
+    description="A Python package that extracts the longest reachable increasing sequence from a list of numbers where each step cannot exceed a specified distance.",
     author="",
     python_requires=">=3.7",
 )
